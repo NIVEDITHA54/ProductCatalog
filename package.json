@@ -2,18 +2,16 @@
   "name": "product-catalog",
   "version": "1.0.0",
   "description": "product catalog",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
-    "body-parser": "^1.20.0",
-    "ejs": "^3.1.7",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "nodemon": "^2.0.15",
-    "retry-axios": "^2.6.0"
+    "nodemon": "^2.0.15"
   }
 }
